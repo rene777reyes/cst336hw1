@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CST-336 HW1: HTML and CSS</title>
+    <title>CST-336 HW1: HTML and CSS (Techniques)</title>
 
     <link href="css_selectors.css" rel="stylesheet">
 
 </head>
 <body>
     <header>
-        <h1> Natural Language Processing </h1> 
+        <h1> Techniques </h1> 
     </header>
 
     <nav class="row">
 
         <div class="navButtons">
-            <a class="active" href = "index.html"> Overview </a>
+            <a href = "index.html"> Overview </a>
 
         </div>
 
@@ -30,7 +30,7 @@
         </div>
 
         <div class="navButtons">
-            <a href = "techniques.html"> Different Techniques </a>
+            <a class="active" href = "techniques.html"> Different Techniques </a>
         </div>
 
     </nav>
@@ -39,11 +39,10 @@
     <article class="intro"> 
         <p>
 
-          Natural Language Processing (NLP) combines computer science, AI, and the study of language
+          Natural Language Processing (NLP) encapsulates many techniques for computers to deal with human language
           <br>
           <br>
-          Human language, as complex as it is, can be understood by computers through NLP. They can 
-          even generate human language in ways we had seen only in futuristic movies!
+          They include Sentiment Analysis, Stopword Removal, and Named Entity Recogniton
           <br>
 
         </p>
@@ -53,19 +52,23 @@
     <section> 
             <div class="row">
 
-                <figure class = "pic">
-                    <img class="pic_scaling" src = "img/blue_robot.png" alt = "Blue Robot">
+                <figure class="pic">
+                    <img class="pic_scaling" src = "img/sentiment_analysis.png" alt = "Sentiment Analysis">
                 </figure>
 
                 <div class="side-text">
-                    <p> In this decade, NLP has become part of everyday life in the digital world. It's 
-                        present in customer service chatbots, text translation, image generation, GPS systems, and more
+                    <p> <h3>Sentiment Analysis:</h3> Detecting whether text conveys a positive, negative, or neutral feeling. 
+                        It's hard for computers to understand the connotations behind words
                         <br>
                         <br>
-                        NLP has become an important tool for automating certain digital duties and collecting insight
+                        <h3>Stopword Removal:</h3> Removing common words (like "the", "and", "is") that aren't
+                        important to the meaning of a sentence. This reduces noise, making the processing 
+                        of text more efficient
                         <br> 
                         <br>
-                        Though there are challenges, NLP is evolving fast in making machine-human communication more natural
+                        <h3>Named Entity Recognition:</h3> Identifying and classifying real-world objects in text (like names, places,
+                         and dates). For a computer, text is a sequence of many strings, so this helps structure it into useful
+                         information
                         
                     </p>
                 </div>
@@ -76,11 +79,9 @@
     <footer>
         <figure>
           <div>
-                <p> Sources: 
-                    <a href="https://www.ibm.com/think/topics/natural-language-processing"> IBM: What is NLP (natural language processing)?</a>
-                    <br> and
+                <p> There are many more techniques that are used in NLP. To learn more, 
+                    visit 
                     <a href="https://www.geeksforgeeks.org/nlp/natural-language-processing-overview/#nlp-tasks"> Geeks for Geeks: Natural Language</a>
-                    
                 </p>
 
           </div>  
