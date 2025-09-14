@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CST-336 HW1: HTML and CSS (How NLP works)</title>
+
+    <link href="css_selectors.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1> How NLP Works </h1> 
+    </header>
+
+    <nav class="row">
+
+        <div class="navButtons">
+            <a href = "index.html"> Overview </a>
+
+        </div>
+
+        <div class="navButtons">
+            <a class="active" href = "how_it_works.html"> How it works </a>
+        </div>
+
+        <div class="navButtons">
+            <a href = "benefits.html"> Benefits </a>
+        </div>
+
+        <div class="navButtons">
+            <a href = "techniques.html"> Different Techniques </a>
+        </div>
+
+    </nav>
+    <hr>
+
+    <article class="intro"> 
+        <p>
+
+          Natural Language Processing (NLP) combines computational methods to understand and
+          generate human language. While its a complex process, here's an overview of the 
+          common NLP pipeline:
+          <br>
+
+        </p>
+        <hr>  
+  </article>
+
+    <section> 
+            <div class="row">
+
+                <figure class="pic">
+                    <img class="pic_scaling" src = "img/how_nlp_works.png" alt = "Sentiment Analysis">
+                </figure>
+
+                <div class="side-text">
+                    <p> 1. Collect text from sources and store it in structured formats <br>
+                        2. Clean and prepare text with:
+                        <ul>
+                            <li>tokenization (splitting into words/sentences)</li>
+                            <li> removing lowercases, punctuation, and stopwords </li>
+                            <li> reducing words to their base forms </li>
+                            <li> normalization (fixing contractions, spelling fixes, special characters) </li>
+                        </ul>
+                        3. Convert text into numerical form <br>
+                        4. Analyze patterns and context<br>
+                        5. Use machine learning<br>
+                        6. Use trained models for tasks like classification, translation, Q&A, sentiment analysis, etc,...<br>
+                        7. Measure the performance and look for error
+                        
+                    </p>
+                </div>
+            </div>
+        
+    </section>
+
+    <footer>
+        <figure>
+            <div>
+                  <p> To go more into depth on each step of the NLP process, visit
+                      <a href="https://www.ibm.com/think/topics/natural-language-processing"> IBM: What is NLP (natural language processing)?</a>
+                  </p>
+  
+            </div>  
+          </figure> 
+            <p>
+                CST336 Internet Programming. Reyes, Rene <br>
+                Disclaimer: this information is used for academic purposes only.
+            </p> 
+    </footer>
+    
+</body>
+</html>
